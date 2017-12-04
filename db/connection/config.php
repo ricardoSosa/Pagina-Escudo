@@ -1,0 +1,1 @@
+<?php $hostname="localhost" ; $database="pagina_escudo" ; $username="root" ; $password="" ; ?>
