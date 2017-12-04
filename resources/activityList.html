@@ -7,7 +7,7 @@
         <script type="text/javascript" src="activityList.js"></script>
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">SS
         <link rel="stylesheet" type="text/css" href="main.css">
         <link rel="stylesheet" type="text/css" href="activityList.css">
     </head>
@@ -27,6 +27,7 @@
         <br>
         <div ng-controller="activityListController as activityList">
             <div class="row">
+                <!--Esto es lo que les interesa-->
                 <li ng-repeat="activity in activityList.activitys" id="activityList.activityDescription">
                     <div class="col m8 offset-m2">
                         <div class="card-panel teal texto-tarjeta center" style="height: 143px">
@@ -37,6 +38,7 @@
                         </div>
                     </div>
                 </li>
+                <!--FIN-->
             </div>
         </div>
 
