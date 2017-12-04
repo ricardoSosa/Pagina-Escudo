@@ -26,7 +26,7 @@
             $result = $this->conect->query($sql);
             if(!$result){
                 $this->msg_error="Lo sentimos, el sitio web está experimentando problemas.";
-                $msg_db="Errno: " . $mysqli->errno . "\n";
+                $msg_db="Errno: " . $this->conect->errno . "\n";
                 echo "$this->msg_error";
             }
 
@@ -53,14 +53,14 @@
             $sql = "INSERT INTO users (fb_id,is_admin) VALUES ('".$user_id."','".$is_admin."')";
             $result = $this->conect->query($sql);
             if(!$result){
-                $this->msg_error="Lo sentimos, el sitio web está experimentando problemas.";
-                $msg_db="Errno: " . $mysqli->errno . "\n";
+                $this->msg_error="Lo sentimos, el sitio web está experimentando problemas. No se pudo registrar usuario. Intentar más tarde";
+                $msg_db="Errno: " . $this->conect->errno . "\n";
                 echo "$this->msg_error";
             }else{
                 if($is_admin){
-                    echo "es admin";
+                    echo "es admin..... USUARIO REGISTRADO";
                 }else{
-                    echo "no es admin";
+                    echo "no es admin.... USUARIO REGISTRADO";
                 }
             }
         }
@@ -68,12 +68,12 @@
         function update($user_id,$is_admin){
             //TODO: Validar usuario,si ya está registrado
             echo"Usuario a Actualizar: " . $user_id;
-            $sql = "UPDATE users SET fb_id='".$user_id."',is_admin='".$is_admin."'";
+            $sql = "UPDATE users SET is_admin='".$is_admin."' WHERE fb_id='".$user_id."'";
             $result = $this->conect->query($sql);
 			
 			if(!$result){
-				$this->msg_error="Lo sentimos, el sitio web está experimentando problemas.";
-                $msg_db="Errno: " . $mysqli->errno . "\n";
+				$this->msg_error="<br>Lo sentimos, el sitio web está experimentando problemas. No se pudo actualizar usuario. Intentar más tarde";
+                $msg_db="Errno: " . $this->conect->errno . "\n";
                 echo "$this->msg_error";
 			}else{
 				if($is_admin){
@@ -84,6 +84,19 @@
             }
 		}
         
-        
+        function delete($user_id){
+            //TODO: Validar usuario,si ya está registrado
+            echo"Usuario a Eliminar: " . $user_id;
+            $sql = "DELETE FROM users WHERE fb_id='".$user_id."'";
+            $result = $this->conect->query($sql);
+            
+            if(!$result){
+				$this->msg_error="Lo sentimos, el sitio web está experimentando problemas. No se pudo eliminar usuario. Intentar más tarde";
+                $msg_db="Errno: " . $this->conect->errno . "\n";
+                echo "$this->msg_error";
+			}else{
+				echo "<br> Usuario eliminado";
+            }
+        }
     }
 ?>
