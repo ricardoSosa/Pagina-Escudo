@@ -89,11 +89,26 @@
                 <br>
             </div>-->
             <div ng-repeat="prize in prizeList.prizes" id="prizeList.prizeDescription">
-                <div class="col m4 offset-m1">
+                <!--<div class="col m4 offset-s4">
                     <div class="card-panel teal texto-tarjeta center">
                         <br>
                         <span class="white-text" style="font-size: 30px">{{prize.description}}</span>
-                    </div>
+                    </div>-->
+            <div class="segundaTarjeta col m3" style="width: 50%">
+              <div class="card">
+                  <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="netflixImage.png" width="250px" height="250px">
+                  </div>
+                  <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Tarjeta de Netflix<i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">Canjear tarjeta</a></p>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Tarjeta de Netflix<i class="material-icons right">close</i></span>
+                    <p>Netflix is the world's leading internet entertainment service with over 109 million members in over 190 countries enjoying more than 125 million hours of TV shows and movies per day, including original series, documentaries and feature films. Members can watch as much as they want, anytime, </p>
+                  </div>
+            </div>
+          </div>
                 </div>
             </div>
         </div>

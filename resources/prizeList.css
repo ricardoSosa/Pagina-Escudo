@@ -7,3 +7,15 @@
     background-image: url(mini_paisaje.png)
      
 }
+
+.segundaTarjeta{
+  display: inline-flex;
+  width:50%;
+  padding-left: 30px;
+  padding-top: 50px;
+
+}
+
+p{
+    font-size: 20px;
+}
