@@ -23,7 +23,7 @@
                 exit();
             }
 			return($mysqli);
-			mysqli_close($enlace); //cierra la conexion a nuestra base de datos, un ounto de seguridad importante.
+			mysqli_close($mysqli); //cierra la conexion a nuestra base de datos, un ounto de seguridad importante.
         }
 }
 ?>

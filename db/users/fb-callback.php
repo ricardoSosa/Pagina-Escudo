@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/Facebook/autoload.php'; // change path as needed
 //NO IMPLEMENTADO
 $fb = new Facebook\Facebook([
   'app_id' => '{app-id}', // Replace {app-id} with your app id
