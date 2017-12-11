@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Test Escudo" link rel="stylesheet" href="main.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../../font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="available.css">
+</head>
+
+<body style="background-color: #F5F5F6">
+    <nav style="background-color: #84AD39">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Actividades</a></li>
+                <li><a href="badges.html">Premios</a></li>
+                <li><a href="#" style="background-color: #FFA000">10000 pts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col m6 offset-m3">
+            <div class="card card-color" style="height: 325px">
+                <div class="card-content font-color">
+                    <div class="col m3">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;
+                        <span>00:00:00</span>
+                    </div>
+                    <div class="col m3">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;
+                        <span>00/00/0000</span>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col m7">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non malesuada nisi, non vulputate lacus. Quisque ut tortor in nisi viverra elementum. Morbi fringilla aliquam augue, tempus convallis tortor lacinia a. Morbi consequat purus quis elit ultrices ullamcorper.</p><br>
+                            <a class="waves-effect waves-light btn" style="background-color:#FFA000">Button</a>
+                        </div>
+                        <div class="col m5"><img style="height: %; width: 98%" src="../../score/paisaje.png"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4">
+                            Fecha de wea
+                        </div>
+                        <div class="col s8"><input class="datepicker"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!-- Compiled and minifiedJavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+        <script type="text/javascript">
+            $('.datepicker').pickadate({
+                selectMonths: true, // Creates a dropdown to control month
+                selectYears: 15, // Creates a dropdown of 15 years to control year,
+                today: 'Today',
+                clear: 'Clear',
+                close: 'Ok',
+                closeOnSelect: false // Close upon selecting a date,
+            });
+
+        </script>
+</body>
+
+
+</html>
