@@ -1,18 +1,41 @@
 .teal {
-	background-color: #71758A !important;
+    background-color: #71758A !important;
 }
 
 .card-panel {
-	border-radius: 5px;
-	text-align: center;
-	padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
 }
 
 .white-text {
-	font-size: 20px;
+    font-size: 20px;
 }
 
-img{
+img {
     height: 100px;
     width: 80px;
+}
+
+#nav {
+    background-color: #ec5555;
+    height: 50px;
+    line-height: 50px;
+    width: 800px;
+    margin: auto;
+    vertical-align: middle;
+    border: 1px solid #A76358;
+}
+
+.nav_button {
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.nav_button a {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18pt;
+    text-decoration: none;
+    color: white;
 }
