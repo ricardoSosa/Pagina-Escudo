@@ -1,9 +1,26 @@
-.customText{
+.pointsText{
     color: #FFA000;
-    
+    font-size: 20px;
+}
+
+.bigPointsText{
+    color: #FFA000;
+    font-size: 40px;
 }
 
 .texto-tarjeta{
     background-image: url(mini_paisaje.png)
      
+}
+
+.customText{
+    font-size: 15px"
+}
+
+.userName{
+    font-weight: bold;
+}
+
+.mainButton{
+    background-color: #FFA000;
 }
