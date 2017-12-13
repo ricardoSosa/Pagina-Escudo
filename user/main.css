@@ -1,0 +1,33 @@
+img {
+    height: 155px;
+    width: 80px;
+}
+
+.card-image {
+	height: 155px;
+}
+
+.nav_button {
+	float: left;
+	text-align: center;
+	margin: auto;
+}
+
+.nav_button a {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 18pt;
+	text-decoration: none;
+	color: white;
+}
+
+.navStyle{
+    background-color: #212121;
+}
+
+.logoStyle{
+    width: auto;
+}
+
+.loginButton{
+    background-color: #01579b;
+}

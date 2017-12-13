@@ -1,0 +1,24 @@
+.texto-tarjeta{
+    background-image: url(mini_paisaje.png)
+     
+}
+
+#container {
+	height: 50px;
+	line-height: 50px;
+	width: 800px;
+	margin: auto;
+	vertical-align: middle;
+}
+
+.segundaTarjeta{
+  display: inline-flex;
+  width:50%;
+  padding-left: 30px;
+  padding-top: 50px;
+
+}
+
+.changeButton{
+    background-color: #FFA000;
+}

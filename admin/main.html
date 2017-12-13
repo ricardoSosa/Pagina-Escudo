@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Test Escudo" link rel="stylesheet" href="main.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="score.css">
+</head>
+
+<body ng-app="appAdmin" style="background-color: #F5F5F6">
+    <nav style="background-color: #84AD39">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="sass.html">Actividades</a></li>
+                <li><a href="badges.html">Premios</a></li>
+                <li><a href="#" style="background-color: #FFA000">10000 pts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col m7 offset-m1">
+            <div class="card">
+                <div class="card-content center">
+                    <div ng-view></div>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+        <div class="col m3">
+            <div class="card-panel teal texto-tarjeta center" style="height: 143px">
+                <br>
+                <span class="white-text" style="font-size: 30px"><a href="#!test">Actividades</a></span>
+            </div>
+            <div class="card-panel teal texto-tarjeta center" style="height: 143px">
+                <br>
+                <span class="white-text" style="font-size: 30px">Premios</span>
+            </div>
+            <div class="card-panel teal texto-tarjeta center" style="height: 143px">
+                <br>
+                <span class="white-text" style="font-size: 30px">Score</span>
+            </div>
+            <div class="card-panel teal texto-tarjeta center" style="height: 143px">
+                <br>
+                <span class="white-text" style="font-size: 30px">Analytics</span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Compiled and minifiedJavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+</body>
+</html>

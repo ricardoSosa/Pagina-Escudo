@@ -1,0 +1,25 @@
+.card-color {
+    border-radius: 8px;
+}
+
+.font-color {
+    color: black;
+}
+
+.icon-style {
+    padding-left: 95%;
+    color: white;
+}
+
+.saveButton {
+    background-color: #FFA000;
+}
+
+.card .card-content {
+    padding: 20px;   
+}
+
+.row .col.m3 > span {
+    color: gray;
+    opacity: 0.5;
+}
