@@ -6,7 +6,8 @@ var configFunction = function($routeProvider, $locationProvider) {
 
     $routeProvider
     	.when("/score", {
-            templateUrl: "score/score.html"
+            templateUrl: "score/score.html",
+            controller: 'ScoreController'
         })
     	.when("/activities", {
             templateUrl: "activities/activities.html",
