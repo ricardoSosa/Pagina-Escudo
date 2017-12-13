@@ -39,3 +39,15 @@ img {
     text-decoration: none;
     color: white;
 }
+
+.navStyle{
+    background-color: #212121;
+}
+
+.logoStyle{
+    width: auto;
+}
+
+.loginButton{
+    background-color: #01579b;
+}
