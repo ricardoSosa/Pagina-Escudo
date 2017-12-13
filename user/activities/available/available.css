@@ -1,13 +1,16 @@
 .card-color {
-    background-color: #01579B;
     border-radius: 8px;
 }
 
 .font-color {
-    color: white;
+    color: black;
 }
 
 .icon-style {
     padding-left: 95%;
     color: white;
+}
+
+.saveButton{
+    background-color: #FFA000;
 }
