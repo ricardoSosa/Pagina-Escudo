@@ -3,22 +3,22 @@
      
 }
 
-#container {
-	height: 50px;
-	line-height: 50px;
-	width: 800px;
-	margin: auto;
-	vertical-align: middle;
-}
-
-.segundaTarjeta{
-  display: inline-flex;
-  width:50%;
-  padding-left: 30px;
-  padding-top: 50px;
-
-}
-
 .changeButton{
     background-color: #01579b;
 }
+
+.left_panel{
+    background-color: #212121;
+}
+
+.right_panel{
+    background-color: #fff;
+}
+
+.change_button{
+    margin-bottom: 10%;
+    background-color: #01579b;
+}
+
+
+
