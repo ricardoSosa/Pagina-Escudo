@@ -1,40 +1,58 @@
-.texto-tarjeta{
+.texto-tarjeta {
     background-image: url(mini_paisaje.png)
-     
 }
 
-.changeButton{
+.changeButton {
     background-color: #01579b;
 }
 
-.left_panel{
+.left_panel {
     background-color: #212121;
 }
 
-.right_panel{
+.right_panel {
     background-color: #fff;
 }
 
-.change_button{
+.change_button {
     margin-bottom: 10%;
     background-color: #01579b;
 }
 
-.loginButton{
+.loginButton {
     background-color: #01579b;
 }
 
-.menuButton{
+.menuButton {
     background-color: #212121;
 }
 
-.editButton:hover{
+.editButton:hover {
     background-color: #212121;
 }
 
-.editButton{
+.editButton {
     background-color: #01579b;
 }
 
+.heightCard {
+    height: 250px;
+}
 
+.titleCardStyle {
+    color: white;
+    font-size: 20px;
+}
 
+.textCardStyle {
+    color: white;
+}
+
+.imgSize {
+    height: 80%;
+    width: 80%;
+}
+
+.btnPadding{
+    padding-top: 10%;
+}
